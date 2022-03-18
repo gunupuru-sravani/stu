@@ -1,0 +1,49 @@
+SQL> create view result as select regno,sname,sgroup,s1marks,s2marks,s3marks,total,avg from students;
+
+View created.
+
+SQL> select * from result;
+
+     REGNO SNAME                SGROUP        S1MARKS    S2MARKS    S3MARKS
+---------- -------------------- ---------- ---------- ---------- ----------
+     TOTAL        AVG
+---------- ----------
+         1 mallika              cs                 20         30         40
+        90       63.3
+
+         2 sri                  cs                 30         20         40
+        90       63.3
+
+         2 sree                 mpcs               30         20         30
+        80       66.6
+
+
+     REGNO SNAME                SGROUP        S1MARKS    S2MARKS    S3MARKS
+---------- -------------------- ---------- ---------- ---------- ----------
+     TOTAL        AVG
+---------- ----------
+         2 sreevani             mecs               30         20         30
+        80       66.6
+
+         5 srinu                mscs               30         20         30
+        80       66.6
+
+        10 divya                cse                30         20         30
+        80       66.6
+
+
+     REGNO SNAME                SGROUP        S1MARKS    S2MARKS    S3MARKS
+---------- -------------------- ---------- ---------- ---------- ----------
+     TOTAL        AVG
+---------- ----------
+        11 anu                  bba                20         20         30
+        70         50
+
+        16 sowmya               mpc                20         20         30
+        70         50
+
+        18 krishna              bsc                20         20         30
+        70         50
+
+
+9 rows selected.
